@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Generated files
+output.css
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: depending on your team's preference
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
