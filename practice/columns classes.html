@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columns with Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+<!-- columns classes is trying to mainting the no. of elements in each columnm, starting from the first column to the last column. At the same time, the values that comes first will adjust in starting columns and then the coming values will expand in the other columns. -->
+
+<body>
+    <div class="flex gap-20">
+        <div class="columns-2 text-white bg-red-300">
+            <div>entry 1</div>
+            <div>entry 2</div>
+            <div>entry 3</div>
+            <div>entry 4</div>
+            <div>entry 5</div>
+            <div>entry 6</div>
+            <div>entry 7</div>
+            <div>entry 8</div>
+        </div>
+        <div class="columns-3 text-white bg-blue-300">
+            <div>entry 1</div>
+            <div>entry 2</div>
+            <div>entry 3</div>
+            <div>entry 4</div>
+            <div>entry 5</div>
+        </div>
+        <div class="columns-3 text-white bg-green-300">
+            <div>entry 1</div>
+            <div>entry 2</div>
+            <div>entry 3</div>
+            <div>entry 4</div>
+            <div>entry 5</div>
+            <div>entry 6</div>
+            <div>entry 7</div>
+            <div>entry 8</div>
+            <div>entry 9</div>
+            <div>entry 10</div>
+            <div>entry 11</div>
+            <div>entry 12</div>
+            <div>entry 13</div>
+        </div>
+
+        <div class="md:columns-3 text-white bg-yellow-300  lg:columns-2 gap-0">
+            <img src="../images/funny_monkey.jpg">
+            <img src="../images/funny_monkey.jpg">
+            <img src="../images/funny_monkey.jpg">
+            <img src="../images/funny_monkey.jpg">
+            <img src="../images/funny_monkey.jpg">
+            <img src="../images/funny_monkey.jpg">
+            <img src="../images/funny_monkey.jpg">
+            <img src="../images/funny_monkey.jpg">
+        </div>
+    </div>
+</body>
+
+</html>

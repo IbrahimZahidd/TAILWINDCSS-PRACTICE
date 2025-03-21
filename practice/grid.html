@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid With Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+<body>
+    <div class="grid grid-cols-4">
+        <div class="col-span-2 bg-red-500 p-10 border border-black">1</div>
+        <div class="bg-blue-500 p-10 border border-black">2</div>
+        <div class="bg-green-500 p-10 border border-black">3</div>
+        <div class="bg-emerald-500 row-span-2 p-10 border border-black">4</div>
+        <div class="bg-fuchsia-500 p-10 border border-black">5</div>
+        <div class="bg-violet-500 p-10 border border-black">6</div>
+        <div class="bg-red-500 p-10 border border-black">7</div>
+        <div class="bg-blue-500 p-10 border border-black">8</div>
+        <div class="bg-green-500 p-10 border border-black">9</div>
+        <div class="bg-emerald-500 p-10 border border-black">10</div>
+        <div class="bg-fuchsia-500 p-10 border border-black">11</div>
+        <!-- here row span will not work because there is no row under it 
+         on which it can span -->
+        <div class="bg-violet-500 row-span-2 p-10 border border-black">12</div>
+    </div>
+</body>
+
+</html>

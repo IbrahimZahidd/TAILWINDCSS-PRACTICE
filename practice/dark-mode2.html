@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" id="root" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode With Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css">
+    <script>
+        function changeMode() {
+            let element = document.getElementById("root");
+            if (element.className == "dark") {
+                document.getElementById("root").className = "light";
+            } else {
+                document.getElementById("root").className = "dark";
+            }
+        }
+    </script>
+</head>
+
+<!-- switch to dark mode on your pc to see effect in settings -->
+
+<body>
+    <div class="bg-white dark:bg-red-300">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+    </div>
+    <button class="border border-slate-300 hover:bg-slate-100 rounded-md p-2 m-2" onclick="changeMode()">Dark
+        Mode</button>
+</body>
+
+</html>
